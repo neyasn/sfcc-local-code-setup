@@ -3,52 +3,52 @@
 1. Clone project repository url(bitbucket) and integrate using eclipse.
 
 ```
-		* Login to bitbucket 
-		* Choose project repository('respective repository' > 'clone button' > copy 'clone Url')
+	* Login to bitbucket 
+	* Choose project repository('respective repository' > 'clone button' > copy 'clone Url')
 ```	
 	Open Eclipse:
 ```	
-		* Windows > Perspective > Open Perspective > other
-		* From Popup window select 'Git' > Open
-		* click on "Clone Git Repository" ('popup window')
-		* paste clone url from bitucket in "URI" field
-		* Add user/password of bitbucket.
-		* Click 'Next' > select 'development branch' > select 'All catridge' > Ok.
-		
-		  - Now selected cartridge will be available in local workspace
+	* Windows > Perspective > Open Perspective > other
+	* From Popup window select 'Git' > Open
+	* click on "Clone Git Repository" ('popup window')
+	* paste clone url from bitucket in "URI" field
+	* Add user/password of bitbucket.
+	* Click 'Next' > select 'development branch' > select 'All catridge' > Ok.
+	
+	  - Now selected cartridge will be available in local workspace
 ```
 	Import the cartridge to eclipse:
 ```	
-		* how to open 'Digital Development' Perspective
-			 Windows > Perspective > Open Perspective > other
-			 From Popup window select 'Digital development' > Open
-			 
-		* Right Click on 'Navigator' window (Import > Existing Project into window > Next > Browse your wrorkspace > Select the cartridge> Next
+	* how to open 'Digital Development' Perspective
+		 Windows > Perspective > Open Perspective > other
+		 From Popup window select 'Digital development' > Open
+		 
+	* Right Click on 'Navigator' window (Import > Existing Project into window > Next > Browse your wrorkspace > Select the cartridge> Next
 ```	
 
 2. Install UX Studio:
 
 ```
-		* UX Studio is a plug-in for Eclipse IDE for Java EE Developers.
-		* The UX Studio plug-in requires JDK 8 and supports the following Eclipse versions.
-			- Mars - Eclipse 4.5
-			- Neon - Eclipse 4.6
-		* In Eclipse, Go to "Help" > Install New Software > Add
-		* Enter "UX Studio" as the name.
-		* Enter a location according to your Eclipse version and instance type. To access different instance types, install different Eclipse instances with different Studio versions.
+	* UX Studio is a plug-in for Eclipse IDE for Java EE Developers.
+	* The UX Studio plug-in requires JDK 8 and supports the following Eclipse versions.
+		- Mars - Eclipse 4.5
+		- Neon - Eclipse 4.6
+	* In Eclipse, Go to "Help" > Install New Software > Add
+	* Enter "UX Studio" as the name.
+	* Enter a location according to your Eclipse version and instance type. To access different instance types, install different Eclipse instances with different Studio versions.
 
-			If use Mars, then
-			https://developer.salesforce.com/media/commercecloud/uxstudio/4.5
+		If use Mars, then
+		https://developer.salesforce.com/media/commercecloud/uxstudio/4.5
 
-			If Neon, then
-			https://developer.salesforce.com/media/commercecloud/uxstudio/4.6
+		If Neon, then
+		https://developer.salesforce.com/media/commercecloud/uxstudio/4.6
 
-		* Select Salesforce B2C Commerce, and click Next.
-		* Eclipse verifies compatibility and Click Next.
-		* Select the license agreements, and click Finish.
-		* When the installation completes, click Yes to restart Eclipse.
+	* Select Salesforce B2C Commerce, and click Next.
+	* Eclipse verifies compatibility and Click Next.
+	* Select the license agreements, and click Finish.
+	* When the installation completes, click Yes to restart Eclipse.
 
-		Note : If you experience problems, make sure that JDK 8 is installed.
+	Note : If you experience problems, make sure that JDK 8 is installed.
 ```
 
 3. Create a code-version in local sandbox:
